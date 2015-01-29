@@ -5,7 +5,8 @@
             var ID = parseInt($(this).attr('data-id')),            
             ID_visible = parseInt($('.Spr_TT_BetterFood_F123 .canvas_img:visible').attr('data-id')),            
                             hash = window.location.hash.substring(1); 
-                                         
+                 Dodane
+		2 linijki                        
             if (ID !== ID_visible) {                
                 $('.Spr_TT_BetterFood_F123 .button').removeClass('buttonClick');               
                 $('.Spr_TT_BetterFood_F123 .button[data-id="' + ID + '"]').addClass('buttonClick');                
