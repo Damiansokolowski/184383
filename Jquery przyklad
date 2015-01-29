@@ -9,6 +9,7 @@
 		 4 linijki 
  		tekstu
 		bezsensu		                       
+
             if (ID !== ID_visible) {                
                 $('.Spr_TT_BetterFood_F123 .button').removeClass('buttonClick');               
                 $('.Spr_TT_BetterFood_F123 .button[data-id="' + ID + '"]').addClass('buttonClick');                
